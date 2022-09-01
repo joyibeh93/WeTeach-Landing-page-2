@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,800;1,400&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* -----------------------------------
+-------------------------styling the header---------------
+------------------------------------------------------------ */
+
+.navbar-expand-lg {
+    background: linear-gradient(92.39deg, #242d80 51.61%, #081c4c 88.27%);
+    /* color: #fff; */
+}
+
+.header-container {
+    margin: 0 80px;
+}
+
+.navbar-brand {
+    color: #eeeaea;
+    font-family: Nunito san;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #eeeaea;
+    font-size: 1rem;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+}
+
+.sign-in {
+    color: #eeeaea;
+    font-size: 1rem;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.search-btn {
+    padding: 0.25rem 1.5625;
+}
+
+
+/* -----------------------------------
+-------------------------Courses Section---------------
+------------------------------------------------------------ */
+
+.course-section {
+    background-color: #ececec;
+    overflow: auto;
+}
+
+.courses {
+    margin: 1.25rem auto;
+    width: 75%;
+}
+
+.courses h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.125rem;
+    padding: 1.25rem;
+    font-family: Source Sans Pro;
+    word-spacing: 2px;
+}
+
+.input-group {
+    margin: 1.25rem auto;
+    width: 75%;
+}
+
+.input-group-text {
+    background: linear-gradient(131.76deg, #f09a1a 35.84%, #f0bd69 73.59%);
+}
+
+.input-group-text i {
+    color: #fff;
+}
+
+.listed-course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.5rem 6.25rem;
+}
+
+.skill1 {
+    border: 1px solid #232c7f;
+    text-align: center;
+    color: #232c7f;
+    font-size: 0.875rem;
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.5rem;
+}
+
+
+/* -------------------------------------------------------------------
+=------------------------STYLING FOR COURSE RECOMMENDATION SECTION-------
+------------------------------------------------------------------------ */
+
+.course-recommendation {
+    background-color: #ececec;
+    overflow: auto;
+}
+
+.course-recommended {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 11.25rem;
+}
+
+.text-message {
+    margin: 0 11.25rem;
+    font-size: 1.25rem;
+}
+
+.info-h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9375rem;
+}
+
+.icon-con {
+    padding: 0.125rem 0.25rem;
+    border-radius: 50%;
+    border: 1px solid #d5cfcf;
+    color: #d5cfcf;
+}
+
+.icon-con .fa-cart-shopping {
+    font-size: 0.625rem;
+}
+
+.info-h5 p {
+    font-size: 12px;
+    color: #d5cfcf;
+    margin: 0;
+}
+
+.icon-con:hover {
+    padding: 0.125rem 0.25rem;
+    border-radius: 50%;
+    border: 1px solid #ffc727;
+    color: #ffc727;
+}
+
+.card-text {
+    font-size: 0.75rem;
+}
+
+.fa-regular {
+    font-size: 0.625rem;
+    margin-left: 0.375rem;
+}
+
+.fa-regular span {
+    font-size: 0.625rem;
+}
+
+.payment-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9375rem;
+}
+
+.amt p {
+    width: 50%;
+    color: #232c7f;
+    font-weight: 600;
+}
+
+.amt span {
+    color: #ffaa00;
+}
+
+.btn-buy {
+    background-color: #232c7f;
+    padding: 0.3125rem 0.9375rem;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.viewed-text {
+    width: 30%;
+}
+
+
+/* -------------------------------------------------------------------
+=------------------------STYLING FOR MORE SECTION-------
+------------------------------------------------------------------------ */
+
+.more-info {
+    background-color: #f4f9ff;
+    overflow: auto;
+}
+
+.more-info-container {
+    margin: 0 10.625rem;
+}
+
+.more-info-links {
+    display: flex;
+}
+
+.more-info-links li {
+    margin: 3.75rem 1.5625rem;
+    list-style: none;
+    font-weight: 900;
+    font-size: 1.125rem;
+}
+
+.more-info-container p {
+    font-size: 16px;
+    text-align: center;
+    color: #474540;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+.more-info-container .second-paragragh {
+    margin-top: 2.5rem;
+}
+
+
+/* -------------------------------------------------------------------
+=------------------------FOOTER SECTION-------
+------------------------------------------------------------------------ */
+
+.footer {
+    background-color: #232c7f;
+    overflow: auto;
+}
+
+.footerElement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.625rem 5rem;
+    color: #fff;
+    padding: 0.5rem;
+    overflow: auto;
+}
+
+.footer .footer-info {
+    font-size: 0.875rem;
+    margin-top: 0.3125rem;
+}
+
+.footer-icons {
+    text-align: right;
+}
